@@ -1,0 +1,96 @@
+html{
+    background: linear-gradient(142deg,rgb(242,94,94) 0%,rgb(191,96,131) 100%);
+}
+
+.intro{
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+
+h1{
+    font-style: bold;
+    font-size: xxx-large;
+    font-family: 'Ubuntu';
+    text-decoration: none;
+    color: antiquewhite;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}
+
+
+*{
+    font-family: 'Ubuntu';;
+}
+
+
+h1:hover{
+    color: rgba(70, 72, 211, 0.865);
+}
+
+
+
+img{
+    scale: 30%
+}
+
+.axes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: 40%;
+    margin-right: 40%;
+    }
+
+.a{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.b{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.c{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 500px;
+}
+
+a{
+    height: 100px;
+    text-decoration: none;
+}
+
+
+ .div-image{ 
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+}
+ 
+.image-zoom {
+    transition: 0.4s;
+}
+     
+.image-zoom:hover{
+    transform: scale(1.2);
+}
+
+@media screen and(max-width: 480px){
+    div.image{
+        margin : 20px;
+    }
+}
